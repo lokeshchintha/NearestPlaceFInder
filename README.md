@@ -1,4 +1,4 @@
-# 🌍 Nearby Places Finder
+# 🌍 Nearest Place Finder
 
 A modern, interactive React website that helps users find nearby places like airports, restaurants, hotels, and more. Built with React, Tailwind CSS, Framer Motion, and Leaflet maps.
 
