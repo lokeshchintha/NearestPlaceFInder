@@ -104,16 +104,6 @@ const PlaceCard = ({ place }) => {
           <Route className="w-4 h-4" />
           Get Navigation
         </motion.button>
-        
-        <motion.button
-          onClick={() => handleGetDirections(false)}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="bg-green-500/20 hover:bg-green-500/30 text-green-300 border border-green-500/30 py-3 px-3 rounded-lg text-sm font-medium transition-all duration-200 flex items-center justify-center"
-          title="Navigate in same tab"
-        >
-          <Navigation2 className="w-4 h-4" />
-        </motion.button>
       </div>
       </div>
     </motion.div>
