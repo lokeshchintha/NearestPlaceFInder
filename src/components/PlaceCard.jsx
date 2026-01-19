@@ -95,7 +95,7 @@ const PlaceCard = ({ place }) => {
 
       <div className="flex gap-2">
         <motion.button
-          onClick={() => handleGetDirections(true)}
+          onClick={() => handleGetDirections(false)}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           className="flex-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 hover:from-blue-500/30 hover:to-purple-500/30 text-blue-300 border border-blue-500/30 py-3 px-4 rounded-lg text-sm font-medium transition-all duration-200 flex items-center justify-center gap-2"
